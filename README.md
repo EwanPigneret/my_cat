@@ -2,7 +2,7 @@
 ***
 
 ## Task
-We need to repruce the behavior of cat, wich means we are given parameters in the terminal that are file names and the goal is to print them in the terminal, using open read and close.
+We need to reproduce the behavior of cat, which means we are given parameters in the terminal that are file names and the goal is to print them in the terminal, using open read and close.
 
 ## Description
 I solved it by reading the first name of the file, open it, read and print it's content. I repeat this operation until there are no parameters left.
