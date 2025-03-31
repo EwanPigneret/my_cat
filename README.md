@@ -17,9 +17,3 @@ a char* that has the size of the buffer + 1 (so it can contains the '\0'). I the
 through all the arguments. Then I open my file by indicating that the pathname is the argument at the index "index" (I increment "index" every loop) and in read only since I only need to print the content of the file. I put the
 result of the open inside my "filedescriptor" and check if it's value is -1 (wich is the value returned when an error occured). If it's the case, I print that an error happened during the oppening of the file and return 1 to stop
 my project.
-
-### The Core Team
-
-
-<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
-<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
